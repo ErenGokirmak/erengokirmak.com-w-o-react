@@ -1,0 +1,136 @@
+body {
+  background-color: #7692FF;
+  color: #1b1b32;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: #091540;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+header a {
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+header a:focus {
+  color: gray;
+}
+
+header a:hover {
+  background-color: white;
+  color: black; 
+}
+
+h1 {
+  padding: 0 0.5rem;
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
+}
+
+h2 {
+  padding-top: 65px;
+  text-align: center;
+}
+
+main {
+  color: white;
+  margin: 40px;
+}
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  padding-right: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div > p {
+  margin: 10px;
+}
+
+.body-frame {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  background-color: #3D518C;
+  border-radius: 20px;
+}
+
+.body-frame p::before {
+  padding-bottom: 20px;
+}
+
+.divider {
+  margin: 5px auto;
+  width: 95%;
+  height: 0;
+  border-bottom: 3px solid white;
+}
+
+.intro {
+  width: 50%;
+  margin: 30px auto;
+  border: 2px solid orange;
+}
+
+.project-grid {
+  display: flex;
+  width: 50%;
+  margin: 10px auto;
+  justify-content: center;
+}
+.project {
+  background-color: orange;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  height: 280px;
+  text-align: center;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  margin: 20px auto;
+  width: 30%;
+}
+
+.contact a {
+  color: orange;
+}
+
+.contact ul {
+  display: inline-block;
+  text-align: left;
+  list-style: lower-greek;
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-color: #091540;
+}
+
+footer p {
+  margin: 10px 20px;
+  font-size: 0.8rem;
+}
